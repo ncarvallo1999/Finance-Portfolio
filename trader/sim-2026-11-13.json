@@ -26,7 +26,12 @@
       },
       "timemachine_replan": {},
       "risk_check": "PASS",
-      "status_11_08": "open at 1107.38 (+$84.49, +1.4R); high 1109.31 at 10:35, $0.06 short of target"
+      "status_11_08": "open at 1107.38 (+$84.49, +1.4R); high 1109.31 at 10:35, $0.06 short of target",
+      "exit": "target",
+      "exit_time": "11:15 ET",
+      "exit_price": 1109.37,
+      "pnl": 118.32,
+      "r": 2.0
     }
   ],
   "skipped": [
@@ -51,5 +56,11 @@
       "at": "11:08 ET (10:30 check fired late)",
       "action": "no new entries: COST uses $18,741 of $19,000 exposure cap"
     }
-  ]
+  ],
+  "result": {
+    "pnl": 118.32,
+    "end_equity": 10118.32,
+    "return_pct": 1.18,
+    "alpaca_paper_untouched": true
+  }
 }
