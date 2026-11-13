@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-13",
+  "mode": "simulation - no orders placed",
+  "start_equity": 10000,
+  "trades": [
+    {
+      "n": 1,
+      "symbol": "COST",
+      "decided_at": "10:12 ET",
+      "side": "buy",
+      "shares": 17,
+      "entry": 1102.41,
+      "stop": 1098.93,
+      "target": 1109.37,
+      "risk_per_share": 3.48,
+      "max_loss": 59.16,
+      "risk_budget": 200,
+      "size_limited_by": "position cap (2x margin = $19,000)",
+      "setup": "ORB triggered 9:50 + daily 20-day closing-high breakout",
+      "timemachine_original_plan": {
+        "target_first": 0.065,
+        "stop_first": 0.295,
+        "neither": 0.639,
+        "avg_r": 0.121,
+        "history_avg_r": 0.28
+      },
+      "timemachine_replan": {},
+      "risk_check": "PASS"
+    }
+  ],
+  "skipped": [
+    {
+      "symbol": "AMD/AVGO/NVDA/ANET/LUNR/CEG",
+      "at": "10:06 ET",
+      "why": "all below opening-range low; chip sell-off, no breakout"
+    },
+    {
+      "symbol": "ABT",
+      "at": "10:12 ET",
+      "why": "timemachine avg R -0.065, stop-first 44% vs target-first 8%"
+    },
+    {
+      "symbol": "other 91 ORB hits",
+      "at": "10:06 ET",
+      "why": "not on the daily setup list; defensive rotation, tiny breakouts (<0.3%)"
+    }
+  ]
+}
