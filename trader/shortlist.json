@@ -1,0 +1,77 @@
+{
+  "created_by": "trader-scanner",
+  "created_at": "2026-11-13T12:45:18Z",
+  "mode": "daily",
+  "as_of": "2026-11-12 close",
+  "universe": 5930,
+  "scanned": 1390,
+  "failed": 2,
+  "source": "yahoo",
+  "filters": {
+    "min_price": 5.0,
+    "min_volume": 1000000
+  },
+  "note": "shortlist 2026-11-13: Nvidia CEO exit theme + movers",
+  "hits": [
+    {
+      "symbol": "AMD",
+      "setups": [
+        "breakout_20d"
+      ],
+      "price": 585.3,
+      "close_date": "2026-11-12",
+      "rsi": 57.5,
+      "volume": 55014886
+    },
+    {
+      "symbol": "AVGO",
+      "setups": [
+        "breakout_20d"
+      ],
+      "price": 364.36,
+      "close_date": "2026-11-12",
+      "rsi": 59.2,
+      "volume": 43502367
+    },
+    {
+      "symbol": "NVDA",
+      "setups": [
+        "oversold"
+      ],
+      "price": 166.19,
+      "close_date": "2026-11-12",
+      "rsi": 25.8,
+      "volume": 740019481
+    },
+    {
+      "symbol": "ANET",
+      "setups": [
+        "breakout_20d"
+      ],
+      "price": 206.63,
+      "close_date": "2026-11-12",
+      "rsi": 60.3,
+      "volume": 9257400
+    },
+    {
+      "symbol": "LUNR",
+      "setups": [
+        "breakout_20d"
+      ],
+      "price": 13.03,
+      "close_date": "2026-11-12",
+      "rsi": 57.0,
+      "volume": 27756263
+    },
+    {
+      "symbol": "CEG",
+      "setups": [
+        "breakout_20d"
+      ],
+      "price": 282.4,
+      "close_date": "2026-11-12",
+      "rsi": 57.6,
+      "volume": 3527663
+    }
+  ]
+}

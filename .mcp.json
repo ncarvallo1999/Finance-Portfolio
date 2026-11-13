@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "alpaca": {
+      "command": "uvx",
+      "args": ["alpaca-mcp-server==2.4.1"],
+      "env": {
+        "ALPACA_API_KEY": "placeholder-injected-by-proxy",
+        "ALPACA_SECRET_KEY": "placeholder-injected-by-proxy",
+        "ALPACA_PAPER_TRADE": "true",
+        "ALPACA_TOOLSETS": "account,trading"
+      }
+    }
+  }
+}
