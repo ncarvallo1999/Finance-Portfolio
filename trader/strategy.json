@@ -1,1 +1,9 @@
-{"start_equity":10000,"base_risk_pct":1.0,"after_win":"risk = 1% of equity + 50% of last win","after_loss":"risk = 50% of last risk","daily_stop_usd":300,"trades":[]}
+{
+  "start_equity": 10000,
+  "base_risk_pct": 2.0,
+  "after_win": "risk = 2% of equity + 50% of last win",
+  "after_loss": "risk = 50% of last risk",
+  "daily_stop_usd": 600,
+  "trades": [],
+  "buying_power_used": 20000
+}
