@@ -25,7 +25,8 @@
         "history_avg_r": 0.28
       },
       "timemachine_replan": {},
-      "risk_check": "PASS"
+      "risk_check": "PASS",
+      "status_11_08": "open at 1107.38 (+$84.49, +1.4R); high 1109.31 at 10:35, $0.06 short of target"
     }
   ],
   "skipped": [
@@ -43,6 +44,12 @@
       "symbol": "other 91 ORB hits",
       "at": "10:06 ET",
       "why": "not on the daily setup list; defensive rotation, tiny breakouts (<0.3%)"
+    }
+  ],
+  "checks": [
+    {
+      "at": "11:08 ET (10:30 check fired late)",
+      "action": "no new entries: COST uses $18,741 of $19,000 exposure cap"
     }
   ]
 }
